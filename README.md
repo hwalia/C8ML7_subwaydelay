@@ -1,4 +1,4 @@
-# Predicting Toronto Transit Commission (TTC) Subway Delay Durations
+# Predicting Toronto Transit Commission (TTC) Subway Delay Duration
 ## Cohort 8 - Group 7 ML
 ### Business Case
 
