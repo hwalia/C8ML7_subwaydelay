@@ -1,0 +1,226 @@
+delay_code,row_count,mapped_delay_code,fuzzy_score,include_code,remarks
+MUSC,22482,MUSC,100,1,
+MUIS,20668,MUIS,100,1,
+SUDP,20535,SUDP,100,1,
+TUSC,16211,TUSC,100,1,
+MUPAA,16105,MUPAA,100,1,
+MUO,10825,MUO,100,1,
+SUO,10436,SUO,100,1,
+MUIRS,7860,MUIRS,100,1,
+MUIR,7226,MUIR,100,1,
+PUMEL,6587,PUMEL,100,1,
+PUOPO,5583,PUOPO,100,1,
+MUNCA,5336,MUNCA,100,1,
+MUGD,5144,MUGD,100,1,
+MUI,5025,MUI,100,1,
+TUMVS,4646,TUMVS,100,1,
+SUUT,4279,SUUT,100,1,
+SUAP,4192,SUAP,100,1,
+EUSC,3546,EUSC,100,1,
+MUATC,3374,MUATC,100,1,
+MUTO,3034,MUTO,100,1,
+EUDO,2911,EUDO,100,1,
+TUO,2906,TUO,100,1,
+MUSAN,2559,MUSAN,100,1,
+PUMST,2492,PUMST,100,1,
+MUDD,2245,MUDD,100,1,
+MUNOA,2240,MUNOA,100,1,
+EUBK,1992,EUBK,100,1,
+TUNOA,1978,TUNOA,100,1,
+SUAE,1705,SUAE,100,1,
+TUNIP,1649,TUNIP,100,1,
+TUOS,1624,TUOS,100,1,
+PUSTS,1542,PUSTS,100,1,
+EUNT,1450,EUNT,100,1,
+MRO,1432,MUO,67,1,Why is there R and O difference so many times?
+MUPLB,1314,MUPLB,100,1,
+TUNCA,1302,TUNCA,100,1,
+MUIE,1195,MUIE,100,1,
+MUD,1178,MUD,100,1,
+PUSI,1126,PUSI,100,1,
+SUG,1126,SUG,100,1,
+PUMO,1114,PUMO,100,1,
+MRTO,900,MUTO,75,1,Why is there R and O difference so many times?
+PUTWZ,892,PUTWZ,100,1,
+PUSNT,884,PUSNT,100,1,
+SUEAS,788,SUEAS,100,1,
+TUCC,782,TUCC,100,1,
+PUSTC,750,PUSTC,100,1,
+SUCOL,708,SUCOL,100,1,
+PUSO,681,PUSO,100,1,
+ERDO,674,EUDO,75,1,Why is there R and O difference so many times?
+PUTIJ,647,PUTIJ,100,1,
+EUBO,633,EUBO,100,1,
+PUTO,627,PUTOE,89,1,
+PUSIS,592,PUSIS,100,1,
+SUROB,588,SUROB,100,1,
+ERTC,587,EUATC,67,1,
+SUSA,570,SUSA,100,1,
+MUWEA,545,MUWEA,100,1,
+SUPOL,535,SUPOL,100,1,
+EUPI,525,EUPI,100,1,
+PUSSW,515,PUSSW,100,1,
+TUS,473,TUS,100,1,
+EUCD,451,EUCD,100,1,
+MUTD,448,MUTD,100,1,
+TUATC,445,TUATC,100,1,
+PUTR,425,PUTR,100,1,
+PUSRA,412,PUSRA,100,1,
+MUPR1,391,MUPR1,100,1,
+PUTIS,384,PUTIS,100,1,
+EUTRD,376,EUTRD,100,1,
+MRWEA,370,MUWEA,80,1,Why is there R and O difference so many times?
+TUSUP,370,TUSUP,100,1,
+EUOE,369,EUOE,100,1,
+EUYRD,369,EUYRD,100,1,
+MUCL,351,MUCL,100,1,
+PUTOE,349,PUTOE,100,1,
+EUME,343,EUME,100,1,
+PUTDN,341,PUTDN,100,1,
+EUAC,338,EUAC,100,1,
+PUSAC,335,PUSAC,100,1,
+EUO,312,EUO,100,1,
+MRUI,285,MUI,86,1,
+TUST,279,TUST,100,1,
+MUWR,266,MUWR,100,1,
+MUPLC,259,MUPLC,100,1,
+MUCP,249,MUCP,100,1,
+TUKEY,240,TUKEY,100,1,
+PUSCR,235,PUSCR,100,1,
+MRPAA,234,MUPAA,80,1,Why is there R and O difference so many times?
+SRDP,229,SUDP,75,1,Why is there R and O difference so many times?
+EUVE,222,EUVE,100,1,
+ERPR,220,EUPI,50,,
+PUCSC,214,PUCSC,100,1,
+EUATC,207,EUATC,100,1,
+SRO,202,SUROB,75,1,
+PUTD,192,PUTD,100,1,
+EUVA,183,EUVA,100,1,
+EUTR,182,EUTR,100,1,
+PREL,178,PUMEL,67,1,
+PUEO,167,PUEO,100,1,
+TRNCA,140,TUNCA,80,1,
+TRO,139,TUO,67,1,Why is there R and O difference so many times?
+SUSP,134,SUSP,100,1,
+PUTSC,131,PUTSC,100,1,
+PUATC,128,PUATC,100,1,
+PUSWZ,128,PUSWZ,100,1,
+PUTTC,124,PUTTC,100,1,
+EUTL,123,EUTL,100,1,
+TRST,122,TUST,75,1,
+SUBT,121,SUBT,100,1,
+EUNEA,120,EUNEA,100,1,
+EUCA,119,EUCA,100,1,
+MRUIR,117,MUIR,89,1,
+TUML,104,TUML,100,1,
+PUTSM,101,PUTSM,100,1,
+TRNOA,98,TUNOA,80,1,Why is there R and O difference so many times?
+EULV,96,EULV,100,1,
+PRO,95,EUOPO,72,,
+ERCD,92,EUCD,75,1,Why is there R and O difference so many times?
+ERNEA,91,EUNEA,80,1,Why is there R and O difference so many times?
+PRS,91,MUIRS,72,,
+MUESA,89,MUESA,100,1,
+TUDOE,88,TUDOE,100,1,
+PUCSS,86,PUCSS,100,1,
+ERDB,73,EUTRD,67,,
+EUCO,73,EUCO,100,1,
+EUAL,71,EUAL,100,1,
+ERNT,68,EUNT,75,1,Why is there R and O difference so many times?
+SRAP,67,SUAP,75,1,Why is there R and O difference so many times?
+PUTNT,65,PUTNT,100,1,
+TRNIP,65,TUNIP,80,1,Why is there R and O difference so many times?
+TUOPO,64,TUOPO,100,1,
+SRUT,63,SUBT,75,,
+EUOPO,60,EUOPO,100,1,
+EUECD,59,EUECD,100,1,
+MUPF,59,MUPF,100,1,
+PUSTP,53,PUSTP,100,1,
+MRD,50,EUTRD,72,,
+MUPLA,48,MUPLA,100,1,
+TUSET,48,TUSET,100,1,
+PRSA,46,PUSAC,67,,
+MUFS,45,MUFS,100,1,
+PRW,45,MUPR1,60,,
+ERTR,44,EUTR,75,1,Why is there R and O difference so many times?
+ERAC,43,EUAC,75,1,Why is there R and O difference so many times?
+ERCO,42,EUCO,75,1,Why is there R and O difference so many times?
+ERWA,42,EUAC,50,,
+TRTC,41,PUTTC,67,,
+MRNOA,38,MUNOA,80,1,Why is there R and O difference so many times?
+PRSO,38,PUSO,75,1,Why is there R and O difference so many times?
+PUTS,38,PUTS,100,1,
+ERTL,37,EUTL,75,1,Why is there R and O difference so many times?
+EUTM,36,EUTM,100,1,
+ERLV,35,EULV,75,1,Why is there R and O difference so many times?
+PUSCA,32,PUSCA,100,1,
+EULT,31,EULT,100,1,
+MRIE,31,MUIE,75,1,Why is there R and O difference so many times?
+MRPLB,31,MUPLB,80,1,Why is there R and O difference so many times?
+ERTB,29,EUBK,50,,
+MRDD,29,MUDD,75,1,Why is there R and O difference so many times?
+PRST,29,PUMST,67,,
+MUFM,28,MUFM,100,1,
+ERO,27,EUO,67,1,Why is there R and O difference so many times?
+PRSL,27,PUSLC,67,,
+PRSW,27,PUSSW,67,,
+PUTTP,27,PUTTP,100,1,
+PUEWZ,25,PUEWZ,100,1,
+SREAS,25,SUEAS,80,1,Why is there R and O difference so many times?
+EUHV,22,EUHV,100,1,
+MRSAN,22,MUSAN,80,1,Why is there R and O difference so many times?
+SRCOL,22,SUCOL,80,1,Why is there R and O difference so many times?
+ERBO,21,EUBO,75,1,Why is there R and O difference so many times?
+MRCL,20,MUCL,75,1,Why is there R and O difference so many times?
+SRAE,20,SUAE,75,1,Why is there R and O difference so many times?
+PUSZC,19,PUSZC,100,1,
+TRSET,19,TUSET,80,1,Why is there R and O difference so many times?
+ERRA,18,EUAC,50,,
+ERME,17,EUME,75,1,Why is there R and O difference so many times?
+MRSTM,17,MUIRS,60,,
+MUODC,16,MUODC,100,1,
+PUSIO,16,PUSIO,100,1,
+XXXXX,14,EUAC,0,,
+PUTCD,13,PUTCD,100,1,
+MUEC,12,MUEC,100,1,
+PRTST,12,PUTS,67,,
+ERHV,11,EUHV,75,1,Why is there R and O difference so many times?
+PUEME,11,PUEME,100,1,
+MRPLA,9,MUPLA,80,1,Why is there R and O difference so many times?
+PRSP,9,PUSTP,67,,
+ERLT,7,EULT,75,1,Why is there R and O difference so many times?
+MFO,7,MUO,67,1,Why is there R and O difference so many times?
+MRPLC,7,MUPLC,80,1,Why is there R and O difference so many times?
+PUDCS,7,PUDCS,100,1,
+SRSA,7,SUSA,75,1,Why is there R and O difference so many times?
+MRESA,5,MUESA,80,1,Why is there R and O difference so many times?
+ERVE,4,EUVE,75,1,Why is there R and O difference so many times?
+MTUI,4,MUI,86,,
+SFDP,4,SUDP,75,,
+SRBT,4,SUBT,75,1,Why is there R and O difference so many times?
+ERWS,3,EUSC,50,,
+MUCSA,3,MUCSA,100,1,
+TUUR,3,TUUR,100,1,
+EUCH,2,EUCH,100,1,
+MRFS,2,MUFS,75,1,Why is there R and O difference so many times?
+MRLD,2,MULD,75,1,Why is there R and O difference so many times?
+MTO,2,MUTO,86,,
+PUSEA,2,PUSEA,100,1,
+SFO,2,SUO,67,,
+ERTO,1,EUO,57,,
+ETCA,1,EUCA,75,,
+EUTAC,1,EUAC,89,,
+MRPR1,1,MUPR1,80,,
+MTAFR,1,MUD,45,,
+PUCBI,1,PUCBI,100,1,
+PUSBE,1,PUSBE,100,1,
+PUSIC,1,PUSI,89,,
+PUTN,1,PUTDN,89,,
+SFAE,1,SUAE,75,,
+SFAP,1,SUAP,75,,
+SRSP,1,SUSP,75,,
+STDP,1,SUDP,75,,
+STO,1,PUMST,72,,
+SUPD,1,SUAP,75,,
+TRDOE,1,TUDOE,80,,
+TUTD,1,MUTD,75,,
