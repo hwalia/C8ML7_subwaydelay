@@ -1,110 +1,110 @@
-Station,Location,Grade
-Finch,North York,Underground
-North York Centre,North York,Underground
-Sheppard–Yonge,North York,Underground
-York Mills,North York,Underground
-Lawrence,Old Toronto,Underground
-Eglinton,Old Toronto,Underground
-Davisville,Old Toronto,Surface
-St. Clair,Old Toronto,Underground
-Summerhill,Old Toronto,Underground
-Rosedale,Old Toronto,Surface
-Bloor–Yonge,Old Toronto,Underground
-Wellesley,Old Toronto,Underground
-College,Old Toronto,Underground
-TMU,Old Toronto,Underground
-Queen,Old Toronto,Underground
-King,Old Toronto,Underground
-Union,Old Toronto,Underground
-St. Andrew,Old Toronto,Underground
-Osgoode,Old Toronto,Underground
-St. Patrick,Old Toronto,Underground
-Queen's Park,Old Toronto,Underground
-Museum,Old Toronto,Underground
-St. George,Old Toronto,Underground
-Spadina,Old Toronto,Underground
-Dupont,Old Toronto,Underground
-St. Clair West,York,Underground
-Cedarvale,Old Toronto,Underground/surface
-Glencairn,North York,Surface
-Lawrence West,North York,Surface
-Yorkdale,North York,Surface
-Wilson,North York,Surface
-Sheppard West,North York,Underground
-Downsview Park,North York,Underground
-Finch West,North York,Underground
-York University,North York,Underground
-Pioneer Village,North York,Underground
-Highway 407,Vaughan,Underground
-Vaughan,Vaughan,Underground
-Kipling,Etobicoke,Surface
-Islington,Etobicoke,Underground
-Royal York,Etobicoke,Underground
-Old Mill,Etobicoke,Underground/elevated
-Jane,Old Toronto,Underground
-Runnymede,Old Toronto,Underground
-High Park,Old Toronto,Underground/surface
-Keele,Old Toronto,Elevated
-Dundas West,Old Toronto,Underground
-Lansdowne,Old Toronto,Underground
-Dufferin,Old Toronto,Underground
-Ossington,Old Toronto,Underground
-Christie,Old Toronto,Underground
-Bathurst,Old Toronto,Underground
-Bay,Old Toronto,Underground
-Sherbourne,Old Toronto,Underground
-Castle Frank,Old Toronto,Underground
-Broadview,Old Toronto,Underground
-Chester,Old Toronto,Underground
-Pape,Old Toronto,Underground
-Donlands,Old Toronto,Underground
-Greenwood,Old Toronto,Underground
-Coxwell,Old Toronto,Underground
-Woodbine,Old Toronto,Underground
-Main Street,Old Toronto,Underground
-Victoria Park,Scarborough,Elevated
-Warden,Scarborough,Elevated
-Kennedy,Scarborough,Underground
-Bayview,North York,Underground
-Bessarion,North York,Underground
-Leslie,North York,Underground
-Don Mills,North York,Underground
-Mount Dennis,York,Surface
-Keelesdale,York,Underground
-Caledonia,York,Underground
-Fairbank,York,Underground
-Oakwood,York,Underground
-Forest Hill,Old Toronto,Underground
-Chaplin,Old Toronto,Underground
-Avenue,Old Toronto,Underground
-Mount Pleasant,Old Toronto,Underground
-Leaside,East York,Underground
-Laird,East York,Underground
-Sunnybrook Park,North York,On-street
-Don Valley,North York,Underground
-Aga Khan Park & Museum,North York,On-street
-Wynford,North York,On-street
-Sloane,North York,On-street
-O'Connor,Scarborough,On-street
-Pharmacy,Scarborough,On-street
-Hakimi Lebovic,Scarborough,On-street
-Golden Mile,Scarborough,On-street
-Birchmount,Scarborough,On-street
-Ionview,Scarborough,On-street
-Humber College,Etobicoke,In-trench
-Westmore,Etobicoke,On-street
-Martin Grove,Etobicoke,On-street
-Albion,Etobicoke,On-street
-Stevenson,Etobicoke,On-street
-Mount Olive,Etobicoke,On-street
-Rowntree Mills,North York,On-street
-Pearldale,North York,On-street
-Duncanwoods,North York,On-street
-Milvan Rumike,North York,On-street
-Emery,North York,On-street
-Signet Arrow,North York,On-street
-Norfinch Oakdale,North York,On-street
-Jane and Finch,North York,On-street
-Driftwood,North York,On-street
-Tobermory,North York,On-street
-Sentinel,North York,On-street
+station,line,location,grade
+Finch,Yonge-University,North York,Underground
+North York Centre,Yonge-University,North York,Underground
+Sheppard–Yonge,Yonge-University,North York,Underground
+York Mills,Yonge-University,North York,Underground
+Lawrence,Yonge-University,Old Toronto,Underground
+Eglinton,Yonge-University,Old Toronto,Underground
+Davisville,Yonge-University,Old Toronto,Surface
+St. Clair,Yonge-University,Old Toronto,Underground
+Summerhill,Yonge-University,Old Toronto,Underground
+Rosedale,Yonge-University,Old Toronto,Surface
+Bloor–Yonge,Yonge-University,Old Toronto,Underground
+Wellesley,Yonge-University,Old Toronto,Underground
+College,Yonge-University,Old Toronto,Underground
+TMU,Yonge-University,Old Toronto,Underground
+Queen,Yonge-University,Old Toronto,Underground
+King,Yonge-University,Old Toronto,Underground
+Union,Yonge-University,Old Toronto,Underground
+St. Andrew,Yonge-University,Old Toronto,Underground
+Osgoode,Yonge-University,Old Toronto,Underground
+St. Patrick,Yonge-University,Old Toronto,Underground
+Queen's Park,Yonge-University,Old Toronto,Underground
+Museum,Yonge-University,Old Toronto,Underground
+St. George,Yonge-University,Old Toronto,Underground
+Spadina,Yonge-University,Old Toronto,Underground
+Dupont,Yonge-University,Old Toronto,Underground
+St. Clair West,Yonge-University,York,Underground
+Cedarvale,Eglinton,Old Toronto,Underground/surface
+Glencairn,Yonge-University,North York,Surface
+Lawrence West,Yonge-University,North York,Surface
+Yorkdale,Yonge-University,North York,Surface
+Wilson,Yonge-University,North York,Surface
+Sheppard West,Yonge-University,North York,Underground
+Downsview Park,Yonge-University,North York,Underground
+Finch West,Yonge-University,North York,Underground
+York University,Yonge-University,North York,Underground
+Pioneer Village,Yonge-University,North York,Underground
+Highway 407,Yonge-University,Vaughan,Underground
+Vaughan,Yonge-University,Vaughan,Underground
+Kipling,Bloor-Danforth,Etobicoke,Surface
+Islington,Bloor-Danforth,Etobicoke,Underground
+Royal York,Bloor-Danforth,Etobicoke,Underground
+Old Mill,Bloor-Danforth,Etobicoke,Underground/elevated
+Jane,Bloor-Danforth,Old Toronto,Underground
+Runnymede,Bloor-Danforth,Old Toronto,Underground
+High Park,Bloor-Danforth,Old Toronto,Underground/surface
+Keele,Bloor-Danforth,Old Toronto,Elevated
+Dundas West,Bloor-Danforth,Old Toronto,Underground
+Lansdowne,Bloor-Danforth,Old Toronto,Underground
+Dufferin,Bloor-Danforth,Old Toronto,Underground
+Ossington,Bloor-Danforth,Old Toronto,Underground
+Christie,Bloor-Danforth,Old Toronto,Underground
+Bathurst,Bloor-Danforth,Old Toronto,Underground
+Bay,Bloor-Danforth,Old Toronto,Underground
+Sherbourne,Bloor-Danforth,Old Toronto,Underground
+Castle Frank,Bloor-Danforth,Old Toronto,Underground
+Broadview,Bloor-Danforth,Old Toronto,Underground
+Chester,Bloor-Danforth,Old Toronto,Underground
+Pape,Bloor-Danforth,Old Toronto,Underground
+Donlands,Bloor-Danforth,Old Toronto,Underground
+Greenwood,Bloor-Danforth,Old Toronto,Underground
+Coxwell,Bloor-Danforth,Old Toronto,Underground
+Woodbine,Bloor-Danforth,Old Toronto,Underground
+Main Street,Bloor-Danforth,Old Toronto,Underground
+Victoria Park,Bloor-Danforth,Scarborough,Elevated
+Warden,Bloor-Danforth,Scarborough,Elevated
+Kennedy,Bloor-Danforth,Scarborough,Underground
+Bayview,Sheppard,North York,Underground
+Bessarion,Sheppard,North York,Underground
+Leslie,Sheppard,North York,Underground
+Don Mills,Sheppard,North York,Underground
+Mount Dennis,Eglinton,York,Surface
+Keelesdale,Eglinton,York,Underground
+Caledonia,Eglinton,York,Underground
+Fairbank,Eglinton,York,Underground
+Oakwood,Eglinton,York,Underground
+Forest Hill,Eglinton,Old Toronto,Underground
+Chaplin,Eglinton,Old Toronto,Underground
+Avenue,Eglinton,Old Toronto,Underground
+Mount Pleasant,Eglinton,Old Toronto,Underground
+Leaside,Eglinton,East York,Underground
+Laird,Eglinton,East York,Underground
+Sunnybrook Park,Eglinton,North York,On-street
+Don Valley,Eglinton,North York,Underground
+Aga Khan Park & Museum,Eglinton,North York,On-street
+Wynford,Eglinton,North York,On-street
+Sloane,Eglinton,North York,On-street
+O'Connor,Eglinton,Scarborough,On-street
+Pharmacy,Eglinton,Scarborough,On-street
+Hakimi Lebovic,Eglinton,Scarborough,On-street
+Golden Mile,Eglinton,Scarborough,On-street
+Birchmount,Eglinton,Scarborough,On-street
+Ionview,Eglinton,Scarborough,On-street
+Humber College,Finch West,Etobicoke,In-trench
+Westmore,Finch West,Etobicoke,On-street
+Martin Grove,Finch West,Etobicoke,On-street
+Albion,Finch West,Etobicoke,On-street
+Stevenson,Finch West,Etobicoke,On-street
+Mount Olive,Finch West,Etobicoke,On-street
+Rowntree Mills,Finch West,North York,On-street
+Pearldale,Finch West,North York,On-street
+Duncanwoods,Finch West,North York,On-street
+Milvan Rumike,Finch West,North York,On-street
+Emery,Finch West,North York,On-street
+Signet Arrow,Finch West,North York,On-street
+Norfinch Oakdale,Finch West,North York,On-street
+Jane and Finch,Finch West,North York,On-street
+Driftwood,Finch West,North York,On-street
+Tobermory,Finch West,North York,On-street
+Sentinel,Finch West,North York,On-street
