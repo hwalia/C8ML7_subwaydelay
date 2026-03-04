@@ -24,7 +24,7 @@ def canonical_line(x):
 
 def canonical_bound(x):
     if pd.isna(x):
-        return "UNKNOWN"
+        return pd.NA
 
     s = str(x).strip().upper()
 
@@ -34,7 +34,7 @@ def canonical_bound(x):
         "E": "E", "EB": "E", "EAST": "E",
         "W": "W", "WB": "W", "WEST": "W",
     }
-    return mapping.get(s, "UNKNOWN")
+    return mapping.get(s, pd.NA)
 
 
 Z_THRESH = 6
