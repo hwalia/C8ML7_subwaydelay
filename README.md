@@ -132,7 +132,7 @@ Our planned workflow includes several key steps:
 
 ![Top Stations with Delays](Images/top_stations_with_delays.png)
 
-- **Modeling:** We will evaluate regression algorithms, including **Linear Regression** (baseline), **Random Forest Regressor**, and **Gradient Boosting (XGBoost)**. These models will help capture both linear and non-linear patterns in the data.  
+- **Modeling:** We will evaluate regression algorithms, including **Linear Regression** (baseline), **Random Forest Regressor**, and **Gradient Boosting (XGBoost)**. These models will help capture both linear and non-linear patterns in the data. 
 
 - **Validation and Tuning:** To simulate real-world forecasting, we will use **time-aware train, validation, and test splits**. Hyperparameter tuning will be conducted using **RandomizedSearchCV**, and **TimeSeriesSplit** cross-validation will help ensure robust performance.  
 
@@ -141,3 +141,70 @@ Our planned workflow includes several key steps:
 - **Model Interpretation:** We will use **feature importance** and **residual analysis** to understand model behavior, and **SHAP values** to explain how each feature contributes to predicted delay durations. This will provide actionable insights for TTC operations and planning.  
 
 The combination of these tools and techniques will allow us to build a reliable, interpretable, and operationally useful machine learning model that predicts subway delays and supports both TTC management and future rider-facing applications.
+
+## Instruction, Modeling and Key Findings
+
+### Setup & Reproduction
+
+To reproduce the results, please follow the setup file to set up the `uv` environment and install all dependencies, then run the two notebooks below.
+
+| Model | Notebook |
+|-------|----------|
+| Random Forest | [RandomForest.ipynb](model/RandomForest.ipynb) |
+| XGBoost | [XGboost.ipynb](model/XGboost.ipynb) |
+
+### 1. Dropping Linear Regression
+
+Linear regression is not well suited for this problem because subway delay patterns are highly nonlinear and complex. The relationship between features such as incident code, station, hour of day, and delay minutes is unlikely to follow a simple linear structure.  
+For example, certain incident codes may cause disproportionately large delays, and peak-hour effects may interact with station congestion in nonlinear ways.
+
+### 2. Model Performance (Random Forest vs XGBoost)
+
+| Metric | Random Forest | XGBoost |
+|--------|--------------|---------|
+| MAE (minutes) | 2.0151 | 1.9871 |
+| RMSE (minutes) | 2.6552 | 2.6252 |
+| MAPE (%) | 41.61% | 40.76% |
+| R² | 0.1066 | 0.1267 |
+| Best CV MAE | 2.0560 | 2.0123 |
+
+**XGBoost** outperforms **Random Forest** across all metrics. Both models are practically similar in accuracy.
+
+### 3. Interpretation and Discussion
+
+### Feature Importances
+![Importance](/Images/XGboostImportancePlot.png)
+
+The XGBoost feature importance analysis indicates that operational variables, particularly `code_enc`, are the dominant drivers of subway delay predictions. Temporal features such as `hour`, `peak_hour`, and station-related variables also contribute meaningfully, while broader seasonal indicators like `month` and `is_weekend` have comparatively smaller effects. This suggests that delay severity is influenced more by incident type and immediate operating conditions than by long-term seasonal patterns.
+
+### Residual Distribution
+![RD](/Images/XGboostResidualDistribution.png)
+
+The residual distribution shows that most prediction errors are concentrated within a small range, indicating reasonable performance for typical delay events. However, the distribution is slightly right-skewed, with a long positive tail, suggesting the model tends to underpredict extreme delay cases. This highlights a limitation in capturing rare but high-impact disruptions.
+
+### SHAP Analysis
+![SHAP](/Images/XGboostSHAP.png)
+
+The SHAP analysis reinforces these findings by providing insight into both the magnitude and direction of feature effects. Incident code, time of day, and station characteristics consistently demonstrate the strongest global influence on predictions. Overall, the model captures key operational drivers of delay but may require further tuning or additional features to better model extreme events.
+
+## Final Conclusion & Future Work
+
+### Does Our Model Work Well?
+The model shows promise but has limitations. On the positive side, predictions are off by only about 2 minutes on average, and the model correctly identifies delay code type, hour of day, and station as the strongest predictors — all of which make real-world sense. However, an R² of 0.13 means the model only explains 13% of the variance in delay duration, and a MAPE of 40.76% suggests it still struggles with shorter or more unpredictable delays. Overall, the model provides a useful baseline but is not yet accurate enough for direct passenger-facing deployment.
+
+### Does It Fulfil the Project Goal?
+The model partially fulfils the project goals. It demonstrates that delay duration can be predicted from operational features, and the insights around delay codes, stations, and time of day can support proactive decision-making and reliability management. However, the prediction accuracy is not yet sufficient to meaningfully improve estimated waiting times or passenger satisfaction at a deployment level. Further development is needed before the model can be reliably integrated into rider-facing systems.
+
+### Future Work
+The most impactful next step is enriching the feature set. While temperature was included in this model, the weather data was not complete — expanding it to cover the full dataset and adding additional weather variables such as snowfall, precipitation, and visibility could significantly improve the model's explanatory power. Historical station-level delay frequency and network congestion signals are also worth exploring. Finally, reframing the problem as a classification task — predicting delay severity bands (minor, moderate, severe) rather than exact minutes — could make the model more actionable for both operators and passengers, and serve as a stronger foundation for real-time integration with TTC data feeds.
+
+
+## Team Videos
+
+| Video Link |
+|---|
+| [Hemant Walia](https://tbd) |
+| [Kamran Akbari-moornani](https://tbd) |
+| [Leo Liu](https://tbd) |
+| [Nader Mostaghimi](https://tbd) |
+| [Safa Ben Othman](https://tbd) |
