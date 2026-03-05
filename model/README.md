@@ -53,14 +53,14 @@ XGBoost is the recommended model. For future improvement, consider adding lag fe
 
 ## 5. Plot Model Interpretation and Discussion (XGboost)
 
-![Importance](../Images\XGboostImportancePlot.png)
+![Importance](../Images/XGboostImportancePlot.png)
 
 The XGBoost feature importance analysis indicates that operational variables, particularly `code_enc`, are the dominant drivers of subway delay predictions. Temporal features such as `hour`, `peak_hour`, and station-related variables also contribute meaningfully, while broader seasonal indicators like `month` and `is_weekend` have comparatively smaller effects. This suggests that delay severity is influenced more by incident type and immediate operating conditions than by long-term seasonal patterns.
 
-![RD](../Images\XGboostResidualDistribution.png)
+![RD](../Images/XGboostResidualDistribution.png)
 
 The residual distribution shows that most prediction errors are concentrated within a small range, indicating reasonable performance for typical delay events. However, the distribution is slightly right-skewed, with a long positive tail, suggesting the model tends to underpredict extreme delay cases. This highlights a limitation in capturing rare but high-impact disruptions.
 
-![SHAP](../Images\XGboostSHAP.png)
+![SHAP](../Images/XGboostSHAP.png)
 
 The SHAP analysis reinforces these findings by providing insight into both the magnitude and direction of feature effects. Incident code, time of day, and station characteristics consistently demonstrate the strongest global influence on predictions. Overall, the model captures key operational drivers of delay but may require further tuning or additional features to better model extreme events.
