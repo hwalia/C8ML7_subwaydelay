@@ -128,9 +128,9 @@ Our planned workflow includes several key steps:
 
 - **Exploratory Data Analysis (EDA):** We will visualize patterns, correlations, and outliers using tools like **matplotlib** to understand how different features relate to delay duration and to inform feature selection. For data exploration, we plotted the average delay by year, month and day of the week. We also plotted the top station with delays. These plots are shown below. 
 
-![Average Delay Minutes by Day and Time](scripts/avg_minute_day_per_time.png)
+![Average Delay Minutes by Day and Time](Images/avg_minute_day_per_time.png)
 
-![Top Stations with Delays](scripts/top_stations_with_delays.png)
+![Top Stations with Delays](Images/top_stations_with_delays.png)
 
 - **Modeling:** We will evaluate regression algorithms, including **Linear Regression** (baseline), **Random Forest Regressor**, and **Gradient Boosting (XGBoost)**. These models will help capture both linear and non-linear patterns in the data.  
 
