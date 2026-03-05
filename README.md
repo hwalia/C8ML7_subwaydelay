@@ -91,7 +91,11 @@ Our planned workflow includes several key steps:
 
 - **Data Preprocessing:** We will clean the dataset by handling missing values, removing invalid records, and addressing outliers. Features such as temporal (hour, peak/off-peak, weekday/weekend, month), spatial (station, line, bound), and incident codes will be engineered to improve predictive power. This step ensures the data is ready for modeling.  
 
-- **Exploratory Data Analysis (EDA):** We will visualize patterns, correlations, and outliers using tools like **matplotlib** to understand how different features relate to delay duration and to inform feature selection.  
+- **Exploratory Data Analysis (EDA):** We will visualize patterns, correlations, and outliers using tools like **matplotlib** to understand how different features relate to delay duration and to inform feature selection. For data exploration, we plotted the average delay by year, month and day of the week. We also plotted the top station with delays. These plots are shown below. 
+
+![Average Delay Minutes by Day and Time](scripts/avg_minute_day_per_time.png)
+
+![Top Stations with Delays](scripts/top_stations_with_delays.png)
 
 - **Modeling:** We will evaluate regression algorithms, including **Linear Regression** (baseline), **Random Forest Regressor**, and **Gradient Boosting (XGBoost)**. These models will help capture both linear and non-linear patterns in the data.  
 
