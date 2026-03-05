@@ -5,15 +5,15 @@
 
 ## 1. Model Performance
 
-| Metric | Random Forest | XGBoost | Winner |
-|--------|--------------|---------|--------|
-| MAE (minutes) | 2.0151 | 1.9871 | XGBoost ✅ |
-| RMSE (minutes) | 2.6552 | 2.6252 | XGBoost ✅ |
-| MAPE (%) | 41.61% | 40.76% | XGBoost ✅ |
-| R² | 0.1066 | 0.1267 | XGBoost ✅ |
-| Best CV MAE | 2.0560 | 2.0123 | XGBoost ✅ |
+| Metric | Random Forest | XGBoost |
+|--------|--------------|---------|
+| MAE (minutes) | 2.0151 | 1.9871 |
+| RMSE (minutes) | 2.6552 | 2.6252 |
+| MAPE (%) | 41.61% | 40.76% |
+| R² | 0.1066 | 0.1267 |
+| Best CV MAE | 2.0560 | 2.0123 |
 
-XGBoost outperforms Random Forest across all metrics, though the margins are small (MAE difference of ~0.03 minutes). Both models are practically similar in accuracy.
+**XGBoost** outperforms **Random Forest** across all metrics, though the margins are small (MAE difference of ~0.03 minutes). Both models are practically similar in accuracy.
 
 ---
 
