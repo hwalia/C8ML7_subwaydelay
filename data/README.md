@@ -1,17 +1,28 @@
+# TTC Subway Delay Dataset (2023–2025)
+
+## Data Overview
+
+This dataset contains recorded subway delay incidents for the Toronto Transit Commission (TTC) between **2023 and 2025**. Each record represents a reported delay event and includes temporal information, operational details, and categorical delay codes describing the cause of the incident.
+
+The dataset consists of yearly CSV files containing individual delay events across TTC subway lines and stations.
+
+---
+
 ## Dataset Files
 
 The dataset contains one file per year:
 
+- `ttc-subway-delay-data-2023.csv`
 - `ttc-subway-delay-data-2024.csv`
 - `ttc-subway-delay-data-2025.csv`
-- `ttc-subway-delay-data-2026.csv`
 
 Additional documentation files:
 
 - `ttc-subway-delay-codes.xlsx` – descriptions of TTC delay codes
 - `ttc-subway-delay-data-readme.xlsx` – official dataset documentation
 
-----
+---
+
 
 ## Data Structure
 
@@ -105,6 +116,8 @@ Purpose: authoritative mapping from TTC codes to human readable descriptions.
 | grade | string | Underground | Station structure/type |
 
 Purpose: canonical station metadata used for joins and grouping.
+
+Notes: This file (`data/master/ttc_subway_station_master.csv`) was created manually by curating station names and related metadata from Wikipedia (Toronto subway station pages) and cleaning them for use in this project. It is a curated reference and includes manual normalizations and editorial choices — please verify before using it for automated joins or authoritative publication. If you find errors or omissions, update the file or open an issue so it can be corrected.
 
 ---
 
