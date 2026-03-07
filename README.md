@@ -205,6 +205,6 @@ The most impactful next step is enriching the feature set. While temperature was
 |---|
 | [Hemant Walia](https://tbd) |
 | [Kamran Akbari-moornani](https://tbd) |
-| [Leo Liu](https://tbd) |
+| [Leo Liu](https://drive.google.com/file/d/1yKPh0lJW5_4A1DEFVBAT4VPn4XIYAqHp/view?usp=sharing) |
 | [Nader Mostaghimi](https://tbd) |
 | [Safa Ben Othman](https://tbd) |
