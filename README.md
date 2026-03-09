@@ -203,7 +203,7 @@ The most impactful next step is enriching the feature set. While temperature was
 
 | Video Link |
 |---|
-| [Hemant Walia](https://tbd) |
+| [Hemant Walia](https://us05web.zoom.us/clips/share/_khMh84oTFWUIorYI3Z_nQ) |
 | [Kamran Akbari-moornani](https://drive.google.com/file/d/1PHDYRrJVXlTjZ1OIv0ahB3VU3MDNfF8B/view?usp=sharing) |
 | [Leo Liu](https://drive.google.com/file/d/1yKPh0lJW5_4A1DEFVBAT4VPn4XIYAqHp/view?usp=sharing) |
 | [Nader Mostaghimi](https://drive.google.com/drive/folders/1RKum1o-aP8Uc9PF3dKBv4zmi98n-3L5e?usp=drive_link) |
