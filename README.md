@@ -206,5 +206,5 @@ The most impactful next step is enriching the feature set. While temperature was
 | [Hemant Walia](https://tbd) |
 | [Kamran Akbari-moornani](https://tbd) |
 | [Leo Liu](https://drive.google.com/file/d/1yKPh0lJW5_4A1DEFVBAT4VPn4XIYAqHp/view?usp=sharing) |
-| [Nader Mostaghimi](https://tbd) |
+| [Nader Mostaghimi](https://drive.google.com/drive/folders/1RKum1o-aP8Uc9PF3dKBv4zmi98n-3L5e?usp=drive_link) |
 | [Safa Ben Othman](https://drive.google.com/file/d/19jYegbaFc3JjhNYt_w4JawVFQkrere6n/view?usp=drive_link) |
